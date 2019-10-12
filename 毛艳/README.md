@@ -6,7 +6,7 @@
 
 这个字体是加密的 所以我们需要用智慧破解(网上的破解方法好像都过期了)
 
-![157001649007](https://github.com/JuzideNuo/Data_analysis/blob/master/maoyan/image/10.12_4.png?raw=true)
+![157001649007](https://github.com/JuzideNuo/Data_analysis/blob/master/maoyan/image/10.2_1.png?raw=true)
 
 
 每次刷新就会出现不一样的字体, 我们双击他就可以下载到字体文件 然后把文件放进-->[这个网站](http://fontstore.baidu.com/static/editor/) 当然 也可以下载应用
@@ -23,9 +23,9 @@ font.saveXML('maoyan.xml')   #将ttf文件转化成xml格式并保存到本地�
 
 
 
-![1570016490077](https://github.com/JuzideNuo/Data_analysis/blob/master/maoyan/image/10.12_5.png?raw=true)
+![1570016490077](https://github.com/JuzideNuo/Data_analysis/blob/master/maoyan/image/10.2_2.png?raw=true)
 
-![1570016504042](C:\Users\Administrator\Desktop\爬虫\爬虫日志\10.2_3.png)
+![1570016504042](https://github.com/JuzideNuo/Data_analysis/blob/master/maoyan/image/10.2_3.png?raw=true)
 
 坐标大致都一样 就是有点小弯曲的区别 但是就是这些区别...导致后面的都不一样
 
@@ -33,9 +33,9 @@ font.saveXML('maoyan.xml')   #将ttf文件转化成xml格式并保存到本地�
 
 怎么办呢 在观察观察 xml里面
 
-![1570036742965](C:\Users\Administrator\Desktop\爬虫\爬虫日志\10.3_1.png)
+![1570036742965](https://github.com/JuzideNuo/Data_analysis/blob/master/maoyan/image/10.3_1.png?raw=true)
 
-![1570036758179](C:\Users\Administrator\Desktop\爬虫\爬虫日志\10.3_2.png)
+![1570036758179](https://github.com/JuzideNuo/Data_analysis/blob/master/maoyan/image/10.3_2.png?raw=true)
 
 感觉`x,y` 密密麻麻的 参考了这位大神的思路 每一个数字其实就是微小的变化而已,我们就把相差最小的平均值视为我们模板数字这样就可以映射替换了,--->>[求平均值](https://blog.csdn.net/xing851483876/article/details/82928607)
 
@@ -117,9 +117,9 @@ def decryption(content):
     return new_html
 ```
 
-![1570096624885](C:\Users\Administrator\Desktop\爬虫\爬虫日志\10.3_3.png)
+![1570096624885](https://github.com/JuzideNuo/Data_analysis/blob/master/maoyan/image/10.3_4.png?raw=true)
 
-![1570096648732](C:\Users\Administrator\Desktop\爬虫\爬虫日志\10.3_4.png)
+![1570096648732](https://github.com/JuzideNuo/Data_analysis/blob/master/maoyan/image/10.3_5.png?raw=true)
 
 OK 完全正确 可以提取我们需要的数据了
 
@@ -279,17 +279,17 @@ if __name__ == "__main__":
 
 然后简单弄回来一些数据开始做图
 
-![1570814642482](C:\Users\Administrator\Desktop\笔记\数据分析\10.12_4.png)
+![1570814642482](https://github.com/JuzideNuo/Data_analysis/blob/master/maoyan/image/10.12_4.png?raw=true)
 
 先清洗一下数据 把 -- 去掉,然后切片 从上映到结束票房 也就90天.
 
 打开刚保存的csv
 
-![1570814684100](C:\Users\Administrator\Desktop\笔记\数据分析\10.12_5.png)
+![1570814684100](https://github.com/JuzideNuo/Data_analysis/blob/master/maoyan/image/10.12_5.png?raw=true)
 
 这第一列是什么魔鬼 删掉删掉
 
-![1570814708984](C:\Users\Administrator\Desktop\笔记\数据分析\10.12_6.png)
+![1570814708984](https://github.com/JuzideNuo/Data_analysis/blob/master/maoyan/image/10.12_6.png?raw=true)
 
 `my = my.replace('--',0)` 将--替换成0  
 
@@ -312,7 +312,7 @@ for i in range(9):
 plt.show()
 ```
 
-![1570815047723](C:\Users\Administrator\Desktop\笔记\数据分析\10.12_7.png)
+![1570815047723](https://github.com/JuzideNuo/Data_analysis/blob/master/maoyan/image/10.12_7.png?raw=true)
 
 ```python
 # 拟合曲线
@@ -337,7 +337,7 @@ for i in range(9):
 plt.show()
 ```
 
-![1570817068792](C:\Users\Administrator\Desktop\笔记\数据分析\10.12_8.png)
+![1570817068792](https://github.com/JuzideNuo/Data_analysis/blob/master/maoyan/image/10.12_8.png?raw=true)
 
 然后创建一个 拟合函数
 
@@ -383,6 +383,6 @@ plt.show()
 print('总票房估计:%.f 万'%np.sum(y3))
 ```
 
-![1570818153886](C:\Users\Administrator\Desktop\笔记\数据分析\10.12_9.png)
+![1570818153886](https://github.com/JuzideNuo/Data_analysis/blob/master/maoyan/image/10.12_9.png?raw=true)
 
 为啥预测得不太准确= = 估计是前面高峰期哪里低得太多了= =
