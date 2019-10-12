@@ -49,11 +49,11 @@ for each in range(1, 20):
 wb.save(newTable)
 ```
 
-![1570881266423](C:\Users\Administrator\Desktop\笔记\数据分析\10.12_10.png)
+![1570881266423](https://github.com/JuzideNuo/Data_analysis/blob/master/qiantu/image/10.12_10.png?raw=true)
 
 将爬取回来的数据存放在`excel`中用`jupyter notebook`分析一下爬取回来的招聘数据
 
-![1570881367225](C:\Users\Administrator\Desktop\笔记\数据分析\10.12_11.png)
+![1570881367225](https://github.com/JuzideNuo/Data_analysis/blob/master/qiantu/image/10.12_11.png?raw=true)
 
 数据妥妥的收到了 然后进行简单的处理 将薪资提取出来 
 
@@ -65,7 +65,7 @@ qt = qt.dropna(axis=0,how='any')
 qt.shape
 ```
 
-![1570881605614](C:\Users\Administrator\Desktop\笔记\数据分析\10.12_12.png)
+![1570881605614](https://github.com/JuzideNuo/Data_analysis/blob/master/qiantu/image/10.12_12.png?raw=true)
 
 ```Python
 # 将薪资分配  依次添加千.万.万/年
@@ -86,7 +86,7 @@ new_qt1['薪资_max'] = pd.to_numeric(new_qt1['薪资_max'])*1000
 new_qt1.head()
 ```
 
-![1570881673933](C:\Users\Administrator\Desktop\笔记\数据分析\10.12_13.png)
+![1570881673933](https://github.com/JuzideNuo/Data_analysis/blob/master/qiantu/image/10.12_13.png?raw=true)
 
 将转化的数据合并`(inner-->并集   outer-->交集)`
 
@@ -94,7 +94,7 @@ new_qt1.head()
 
 处理一下地址并将评价薪资弄出来 方便等下操作
 
-![1570881807052](C:\Users\Administrator\Desktop\笔记\数据分析\10.12_14.png)
+![1570881807052](https://github.com/JuzideNuo/Data_analysis/blob/master/qiantu/image/10.12_14.png?raw=true)
 
 将工作岗位地址进行汇总
 
@@ -130,7 +130,7 @@ geo
 
 ### 地图样式
 
-![1570882062657](C:\Users\Administrator\Desktop\笔记\数据分析\10.12_15.png)
+![1570882062657](https://github.com/JuzideNuo/Data_analysis/blob/master/qiantu/image/10.12_15.png?raw=true)
 
 越红 说明职位需求越高
 
@@ -182,7 +182,7 @@ for i in mean:
 money
 ```
 
-![1570882239394](C:\Users\Administrator\Desktop\笔记\数据分析\10.12_16.png)
+![1570882239394](https://github.com/JuzideNuo/Data_analysis/blob/master/qiantu/image/10.12_16.png?raw=true)
 
 ```Python
 from pyecharts import Bar
@@ -196,7 +196,7 @@ mybar
 # 可以滑动的 贼好玩
 ```
 
-![1570882310157](C:\Users\Administrator\Desktop\笔记\数据分析\10.12_17.png)
+![1570882310157](https://github.com/JuzideNuo/Data_analysis/blob/master/qiantu/image/10.12_17.png?raw=true)
 
 ```Python
 from pyecharts import Geo
