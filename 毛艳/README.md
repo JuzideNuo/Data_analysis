@@ -6,7 +6,8 @@
 
 这个字体是加密的 所以我们需要用智慧破解(网上的破解方法好像都过期了)
 
-！[1570016310986]（https://github.com/JuzideNuo/Data_analysis/blob/master/maoyan/image/10.12_4.png)
+！[1570016310986]（https://github.com/JuzideNuo/Data_analysis/blob/master/maoyan/image/10.12_4.png?raw=true)
+
 
 每次刷新就会出现不一样的字体, 我们双击他就可以下载到字体文件 然后把文件放进-->[这个网站](http://fontstore.baidu.com/static/editor/) 当然 也可以下载应用
 
