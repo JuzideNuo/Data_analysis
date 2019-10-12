@@ -90,7 +90,7 @@ new_qt1.head()
 
 将转化的数据合并`(inner-->并集   outer-->交集)`
 
-![1570881769733](C:\Users\ADMINI~1\AppData\Local\Temp\1570881769733.png)
+![1570881769733](https://github.com/JuzideNuo/Data_analysis/blob/master/qiantu/image/10.12_18.png?raw=true)
 
 处理一下地址并将评价薪资弄出来 方便等下操作
 
@@ -144,7 +144,7 @@ pie.add('',demo_city,demo_data,is_label_show = True)
 pie
 ```
 
-![饼图](E:\Jupyter_save\shujufenxi\智联招聘分析\饼图.png)
+![饼图](https://github.com/JuzideNuo/Data_analysis/blob/master/qiantu/image/%E9%A5%BC%E5%9B%BE.png?raw=true)
 
 ### 玫瑰花环图
 
@@ -163,7 +163,7 @@ pie
 
 
 
-![职位分布玫瑰花环图](E:\Jupyter_save\shujufenxi\智联招聘分析\职位分布玫瑰花环图.png)
+![职位分布玫瑰花环图](https://github.com/JuzideNuo/Data_analysis/blob/master/qiantu/image/%E8%81%8C%E4%BD%8D%E5%88%86%E5%B8%83%E7%8E%AB%E7%91%B0%E8%8A%B1%E7%8E%AF%E5%9B%BE.png?raw=true)
 
 
 
@@ -220,4 +220,4 @@ geo
 
 地图版
 
-![各地平均招聘工资](E:\Jupyter_save\shujufenxi\智联招聘分析\各地平均招聘工资.png)
+![各地平均招聘工资](https://github.com/JuzideNuo/Data_analysis/blob/master/qiantu/image/%E5%90%84%E5%9C%B0%E5%B9%B3%E5%9D%87%E6%8B%9B%E8%81%98%E5%B7%A5%E8%B5%84.png?raw=true)
