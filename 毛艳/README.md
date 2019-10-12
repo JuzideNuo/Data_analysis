@@ -23,7 +23,7 @@ font.saveXML('maoyan.xml')   #将ttf文件转化成xml格式并保存到本地�
 
 
 
-![1570016490077](C:\Users\Administrator\Desktop\爬虫\爬虫日志\10.2_2.png)
+![1570016490077](https://github.com/JuzideNuo/Data_analysis/blob/master/maoyan/image/10.12_5.png?raw=true)
 
 ![1570016504042](C:\Users\Administrator\Desktop\爬虫\爬虫日志\10.2_3.png)
 
