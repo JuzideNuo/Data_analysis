@@ -36,7 +36,7 @@
 
 ## 分析击杀数据
 
-![1571305581684](C:\Users\ADMINI~1\AppData\Local\Temp\1571305581684.png)
+![1571305581684](https://github.com/JuzideNuo/Data_analysis/blob/master/chiji/image/1571305581684.png?raw=true)
 
 ```Python
 # 数据去重
